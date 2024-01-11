@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { RouterModule } from '@angular/router';
 
 import { MatSidenavModule } from '@angular/material/sidenav'
 import { MatListModule } from '@angular/material/list'
@@ -18,7 +18,7 @@ import { ProductCrudComponent } from '../../../views/product-crud/product-crud.c
     MatCardModule,
     HomeComponent,
     ProductCrudComponent,
-    RouterOutlet
+    RouterModule
   ],
 
   templateUrl: './nav.component.html',
